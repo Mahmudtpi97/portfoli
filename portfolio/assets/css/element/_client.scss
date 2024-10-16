@@ -1,0 +1,9 @@
+.mh-client-slider img {
+    max-width: 80%;
+    opacity: 0.5;
+    transition: var(--transition-03);
+    &:hover {
+      opacity: 1;
+      transform: translateY(-5px);
+    }
+  }

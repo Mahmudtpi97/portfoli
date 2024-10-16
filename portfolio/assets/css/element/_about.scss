@@ -1,0 +1,29 @@
+.mh-about-area{
+    padding-bottom:220px;
+    .about-image {
+        position: relative;
+        .image{
+            max-width: 400px;
+            width: 100%;
+            img{
+                border-radius: 10px;
+            }
+        }
+       .mh-about-shape {
+            position: absolute;
+            width: 410px;
+            height: 475px;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            left: 0%;
+            top: 15%;
+            z-index: -1;
+        }
+    }
+    .about-content{
+        h2{
+            margin-bottom: 20px;
+        }
+    }
+   
+}

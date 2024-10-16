@@ -1,0 +1,29 @@
+.mh-testimonial{
+    border: 2px solid var(--color-border);
+    border-radius: 30px;
+    padding: 50px 50px 40px 50px;
+    .testi-client{
+        margin-bottom: 25px;
+        .client-img{
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        }
+        .client-info{
+        line-height:normal;
+        .title{
+            margin-bottom:0px;
+        }
+        .designation{
+            font-size:16px;
+        }
+        }
+    }
+    .testi-desc{
+        font-size: 20px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,29 @@
+// variables
+:root {
+    // Color 
+    --color-primary: #9cca51;
+    --color-secondary: #4AAB3D;
+    --color-title: #1F1F25;
+    --color-body: #6E777D;
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --color-border:#ccc;
+    // Font 
+    --font-primary: "Ubuntu", sans-serif;
+    --font-title: "Ubuntu", sans-serif;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+    // Background 
+    --bg-1:#1f2124;
+    --bg-2: linear-gradient(145deg, #e2e8ec, #ffffff);
+    // Shadow
+    --shadow-1: 10px -10px 20px #2c3034, -10px -10px 20px #26262d; 
+    --shadow-2: 2px 2px 20px 0px #1d1d1f80;
+    --shadow-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --shadow-4: 0 0 10px rgba(0,0,0,0.1);
+    // Transition 
+    --transition-03: .3s;
+    --transition-05: .5s;
+}

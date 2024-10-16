@@ -1,0 +1,50 @@
+
+.mh-progress-bar.style-1{
+    margin-bottom: 20px;
+    .progress-text{
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .mh-progress {
+        position: relative;
+        height: 8px;
+        background:#ddd;
+        border-radius: 10px;
+        transform-origin: left;
+        span {
+            position: absolute;
+            background: var(--color-primary);
+            height: 100%;
+            border-radius: 10px;
+            transform: scaleX(0);
+            transform-origin: left;
+            animation: mhScaleX1 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+            &::after{
+                position: absolute;
+                content: attr(data-value);
+                right: 0;
+                top: -40px;
+                color: #f0f0f0;
+                font-size: 12px;
+                font-weight: 700;
+                background: #202020;
+                padding: 6px 10px;
+                border-radius: 3px;
+            }
+            &::before {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 0;
+                right: 0;
+                top: -12px;
+                border: 8px solid transparent;
+                border-bottom-width: 0px;
+                border-right-width: 0px;
+                border-top-color: var(--bg-1);
+            }
+        }
+    }
+}
+  
+  
